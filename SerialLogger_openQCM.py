@@ -37,7 +37,7 @@ device_port = "COM46"
 output_file = "SL_output.txt"
 comment = "Output data from openQCM microbalance"
 data_header = "date,time,frequency,temperature" # Separate data columns by commas
-data_units = "yyyy:mm:dd,hh:mm:ss,Hz,deg.C" # Separate data columns by commas
+data_units = "yyyy.mm.dd,hh:mm:ss,Hz,deg.C" # Separate data columns by commas
 
 # Create object for serial port
 device_ser = serial.Serial(device_port, baudrate=9600, stopbits=1, parity="N",  timeout=2)
