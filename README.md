@@ -1,2 +1,2 @@
-# Python_read_openQCM
-Read and save data from openQCM microbalance
+# Serial logger script for openQCM
+Python script to read and save data from openQCM microbalance
